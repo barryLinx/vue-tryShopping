@@ -1,0 +1,59 @@
+html{
+  font-size: 16px;
+}
+body{
+  font-family: Microsoft JhengHei;
+}
+
+.btn-cart{
+  background-color: transparent;
+  position: relative;
+}
+
+.btn-cart .badge{
+  position: absolute;
+  top: -1px;
+  right: 0;
+}
+/* dropdown-menu-right  需自己計算空間 */
+.dropdown-menu-right{
+  right: 0;
+  left: auto;
+}
+.jumbotron-bg{
+  background-image: url(https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b17958c40e777065643cb65954bede79&auto=format&fit=crop&w=1350&q=80);
+  background-size: cover;
+  background-position: center center;
+  min-height: 400px;
+}
+
+/* 背景圖與文字顏色衝突  自定義"文字背景"顏色*/
+.bg-lighter{
+  background-color: rgba(255, 255, 255,0.3);
+  }
+
+
+  .box-shadow{
+    /* 水平移動  垂直移動  擴散  透明度*/
+    box-shadow: 0 3px 5px rgba(0, 0, 0,0.16);
+    transition:  box-shadow .3s;
+  }
+
+  .box-shadow:hover{
+    /* 水平移動  垂直移動  擴散  透明度*/
+    box-shadow: 0 4px 10px rgba(0, 0, 0,0.36);
+  }
+
+  .btn.disabled{
+    pointer-events: none;
+
+  }
+
+ .alert-rounded{
+   border-radius: 50px; 
+ }
+ .image-wh{
+ 
+   height: 40px;
+   width: 60px;
+ }
